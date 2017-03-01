@@ -6,7 +6,7 @@ Minimalistic clojure template for leiningen. It mainly provides a user ns for de
 
 Create a new template
 ```
-lein new dvlopt-clj 'your-projet'
+lein new dvlopt-clj your-projet
 ```
 
 Reload namespaces in the repl (user ns)
@@ -17,7 +17,7 @@ Reload namespaces in the repl (user ns)
 
 ## License
 
-Copyright © 2017 Dvlopt
+Copyright © 2017 Adam Helinski
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
