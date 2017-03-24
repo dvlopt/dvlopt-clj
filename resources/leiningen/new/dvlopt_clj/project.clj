@@ -14,6 +14,7 @@
                            :plugins      [[venantius/ultra "0.4.1"]                ;; colorful repl
                                           ]
                            :dependencies [[org.clojure/tools.namespace "0.2.11"]
+                                          [criterium "0.4.4"]
                                           ;[org.clojure/test.check "0.9.0"]]
                                           ]}
                  :uberjar {:aot :all}})
