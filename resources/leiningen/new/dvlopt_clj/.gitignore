@@ -1,3 +1,9 @@
+# dev namespaces
+/dev/
+
+# Codox
+/doc/auto
+
 /target
 /classes
 /checkouts
@@ -10,8 +16,6 @@ pom.xml.asc
 .hgignore
 .hg/
 
-# Codox
-/doc/codox
 
 # Created by https://www.gitignore.io/api/clojure,linux,vim
 
