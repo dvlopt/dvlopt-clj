@@ -16,5 +16,6 @@
                            :dependencies [[org.clojure/tools.namespace "0.2.11"]
                                           [criterium "0.4.4"]
                                           ;[org.clojure/test.check "0.9.0"]]
-                                          ]}
+                                          ]
+                           :global-vars {*warn-on-reflection* true}}
                  :uberjar {:aot :all}})
