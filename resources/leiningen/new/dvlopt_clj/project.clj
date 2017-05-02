@@ -11,11 +11,16 @@
                  ]
   :profiles     {:dev     {:source-paths ["dev"]
                            :main         user
-                           :plugins      [[venantius/ultra "0.4.1"]                ;; colorful repl
-                                          ]
+                           :plugins      [[mvxcvi/whidbey "1.3.1"]]
+                           :whidbey      {:color-scheme {:keyword         [:green]
+                                                         :boolean         [:bold :yellow]
+                                                         :character       [:white]
+                                                         :string          [:white]
+                                                         :symbol          [:bold :magenta]
+                                                         :nil             [:bold :cyan]}}
                            :dependencies [[org.clojure/tools.namespace "0.2.11"]
                                           [criterium "0.4.4"]
                                           ;[org.clojure/test.check "0.9.0"]]
                                           ]
-                           :global-vars {*warn-on-reflection* true}}
+                           :global-vars  {*warn-on-reflection* true}}
                  :uberjar {:aot :all}})
