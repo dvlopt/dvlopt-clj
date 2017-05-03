@@ -4,8 +4,7 @@
             ;[clojure.spec.gen            :as gen]
             ;[clojure.spec.test           :as stest]
             [criterium.core               :as ct]
-            [{{ name }}.core :as c])
-  (:gen-class))
+            [{{ name }}.core :as c]))
 
 
 
