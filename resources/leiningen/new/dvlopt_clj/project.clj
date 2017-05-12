@@ -7,7 +7,7 @@
   :plugins      [[lein-codox "0.10.3"]]
   :codox        {:output-path "doc/auto"}
   :main         {{ name }}.core
-  :dependencies [[org.clojure/clojure "1.9.0-alpha10"]
+  :dependencies [[org.clojure/clojure "1.9.0-alpha16"]
                  ]
   :profiles     {:dev     {:source-paths ["dev"]
                            :main         user
@@ -19,8 +19,8 @@
                                                          :symbol          [:bold :magenta]
                                                          :nil             [:bold :cyan]}}
                            :dependencies [[org.clojure/tools.namespace "0.2.11"]
+                                          [org.clojure/test.check "0.9.0"]
                                           [criterium "0.4.4"]
-                                          ;[org.clojure/test.check "0.9.0"]]
                                           ]
                            :global-vars  {*warn-on-reflection* true}}
                  :uberjar {:aot :all}})
