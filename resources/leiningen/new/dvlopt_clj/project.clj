@@ -7,17 +7,13 @@
   :plugins      [[lein-codox "0.10.3"]]
   :codox        {:output-path "doc/auto"}
   :main         {{ name }}.core
-  :dependencies [[org.clojure/clojure "1.9.0-alpha16"]
+  :dependencies [[org.clojure/clojure    "1.9.0-alpha17"]
+                 [org.clojure/spec.alpha "0.1.123"]
                  ]
   :profiles     {:dev     {:source-paths ["dev"]
                            :main         user
-                           :plugins      [[mvxcvi/whidbey "1.3.1"]]
-                           :whidbey      {:color-scheme {:keyword         [:green]
-                                                         :boolean         [:bold :yellow]
-                                                         :character       [:white]
-                                                         :string          [:white]
-                                                         :symbol          [:bold :magenta]
-                                                         :nil             [:bold :cyan]}}
+                           :plugins      [[venantius/ultra "0.5.1"]
+                                          [lein-midje      "3.0.0"]]
                            :dependencies [[org.clojure/tools.namespace "0.2.11"]
                                           [org.clojure/test.check "0.9.0"]
                                           [criterium "0.4.4"]

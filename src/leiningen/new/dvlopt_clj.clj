@@ -38,4 +38,7 @@
                             data)]
                    ["src/{{sanitized}}/core.clj"
                     (render "core.clj"
+                            data)]
+                   ["test/{{sanitized}}/core_test.clj"
+                    (render "core_test.clj"
                             data)])))
