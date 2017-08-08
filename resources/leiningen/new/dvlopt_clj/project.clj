@@ -1,5 +1,6 @@
 (defproject {{ name }}
             "0.0.0-alpha0"
+
   :description  "<!> Developer is too lazy to write a description"
   :url          "Missing, maybe there is no website yet ?"
   :license      {:name "Eclipse Public License"
@@ -14,8 +15,7 @@
                            :main         user
                            :plugins      [[venantius/ultra "0.5.1"]
                                           [lein-midje      "3.0.0"]]
-                           :dependencies [[org.clojure/tools.namespace "0.2.11"]
-                                          [org.clojure/test.check "0.9.0"]
+                           :dependencies [[org.clojure/test.check "0.9.0"]
                                           [criterium "0.4.4"]
                                           ]
                            :global-vars  {*warn-on-reflection* true}}

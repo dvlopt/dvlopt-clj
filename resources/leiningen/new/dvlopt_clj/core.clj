@@ -1,7 +1,19 @@
 (ns {{ name }}.core
+
+  {:author "Mr. Awesome"}
+
   (:gen-class))
 
 
 
 
-(defn -main [& args] (println "Starting {{ name }}..."))
+;;;;;;;;;;
+
+
+(defn -main
+  
+  "Start the program"
+
+  [& args]
+  
+  (println "Starting {{ name }}..."))
