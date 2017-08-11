@@ -9,14 +9,12 @@
   :codox        {:output-path "doc/auto"}
   :main         {{ name }}.core
   :dependencies [[org.clojure/clojure    "1.9.0-alpha17"]
-                 [org.clojure/spec.alpha "0.1.123"]
-                 ]
+                 [org.clojure/spec.alpha "0.1.123"]]
   :profiles     {:dev     {:source-paths ["dev"]
                            :main         user
                            :plugins      [[venantius/ultra "0.5.1"]
                                           [lein-midje      "3.0.0"]]
                            :dependencies [[org.clojure/test.check "0.9.0"]
-                                          [criterium "0.4.4"]
-                                          ]
+                                          [criterium "0.4.4"]]
                            :global-vars  {*warn-on-reflection* true}}
                  :uberjar {:aot :all}})
