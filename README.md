@@ -1,6 +1,6 @@
 # Dvlopt clojure template
 
-Minimalistic clojure template for leiningen. It mainly provides a user ns for development and hacking.
+Minimalistic clojure template for leiningen.
 
 
 ## License

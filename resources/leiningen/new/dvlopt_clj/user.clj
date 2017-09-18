@@ -3,7 +3,7 @@
             [clojure.spec.gen.alpha  :as gen]
             [clojure.spec.test.alpha :as stest]
             [criterium.core          :as ct]
-            [{{ name }}.core         :as $]))
+            [{{ name }}.core         :as +.core]))
 
 
 

@@ -1,11 +1,18 @@
 (ns leiningen.new.dvlopt-clj
+
+  {:author "Adam Helinski"}
+
   (:require [leiningen.core.main     :as main]
             [leiningen.new.templates :as templ]))
 
 
 
 
+;;;;;;;;;;
+
+
 (def render (templ/renderer "dvlopt-clj"))
+
 
 
 
