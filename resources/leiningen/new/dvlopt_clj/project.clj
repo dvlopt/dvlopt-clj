@@ -6,7 +6,7 @@
   :license      {:name "Eclipse Public License"
                  :url  "http://www.eclipse.org/legal/epl-v10.html"}
   :main         {{ name }}.core
-  :dependencies [[org.clojure/clojure "1.9.0-alpha20"]]
+  :dependencies [[org.clojure/clojure "1.9.0-beta1"]]
   :profiles     {:dev     {:source-paths ["dev"]
                            :main         user
                            :dependencies [[org.clojure/spec.alpha "0.1.123"]
