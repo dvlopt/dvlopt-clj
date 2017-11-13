@@ -1,7 +1,9 @@
 # Dvlopt clojure template
 
-Minimalistic clojure template for leiningen.
+[![Clojars
+Project](https://img.shields.io/clojars/v/dvlopt-clj/lein-template.svg)](https://clojars.org/dvlopt-clj/lein-template)
 
+Minimalistic clojure template for leiningen.
 
 ## License
 
