@@ -1,6 +1,6 @@
 # {{ name }}
 
-Some code to make dreams come true
+Some code to make dreams come true.
 
 ## Usage
 
