@@ -1,5 +1,7 @@
 (ns {{ name }}.core
 
+  " ? "
+
   {:author "Mr. Awesome"}
 
   (:gen-class))

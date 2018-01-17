@@ -1,5 +1,5 @@
 (defproject dvlopt-clj/lein-template
-            "0.0.10"
+            "0.0.11"
 
   :description       "Dvlopt lein template for clojure"
   :url               "https://github.com/dvlopt/dvlopt-clj"
