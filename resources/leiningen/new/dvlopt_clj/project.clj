@@ -6,13 +6,13 @@
   :license      {:name "Eclipse Public License"
                  :url  "http://www.eclipse.org/legal/epl-v10.html"}
   :main         {{ name }}.core
-  :dependencies [[org.clojure/clojure "1.9.0"]]
+  :dependencies [[org.clojure/clojure "1.10.0"]]
   :profiles     {:dev     {:source-paths ["dev"]
                            :main         user
-                           :dependencies [[org.clojure/test.check "0.10.0-alpha2"]
-                                          [criterium              "0.4.4"]]
-                           :plugins      [[venantius/ultra "0.5.2"]
-                                          [lein-codox      "0.10.3"]]
+                           :dependencies [[criterium              "0.4.4"]
+                                          [org.clojure/test.check "0.10.0-alpha3"]]
+                           :plugins      [[lein-codox      "0.10.5"]
+                                          [venantius/ultra "0.5.2"]]
                            :codox        {:output-path  "doc/auto"
                                           :source-paths ["src"]}
                            :global-vars  {*warn-on-reflection* true}}
